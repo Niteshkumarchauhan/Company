@@ -1,0 +1,81 @@
+.container{
+  width: 1050px;
+  margin: auto;
+  height: 100vh;
+  background-color: #ffa600;
+  text-align: center;
+  font-family: sans-serif;
+}
+.stopwatch{
+  padding-top: 30px;
+}
+.stopwatch h1{
+  font-weight: 100;
+  font-size: 42px;
+  color: white;
+}
+.stopwatch p{
+  font-weight: 100;
+  font-size: 32px;
+  color: white;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.bottons {
+  display: flex;
+  justify-content: center;
+}
+#stop {
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 180px;
+  color: white;
+  height: 60px;
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: #ffa600;
+}
+#start {
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 180px;
+  color: white;
+  height: 60px;
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: #ffa600;
+}
+#reset {
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 180px;
+  color: white;
+  height: 60px;
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: #ffa600;
+}
+#reset:hover {
+  background-color: white;
+  color: #ffa600;
+}
+#stop:hover {
+  background-color: white;
+  color: #ffa600;
+}
+#start:hover {
+  background-color: white;
+  color: #ffa600;
+}
