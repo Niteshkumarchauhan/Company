@@ -1,0 +1,25 @@
+.table {
+  padding-top: 20px;
+}
+
+.edit {
+  background: rgb(62, 124, 196);
+  color: white;
+  width: 47px;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  border-collapse: collapse;
+}
+.delete {
+  margin: 0 10px;
+  background: red;
+  color: white;
+  width: 55px;
+  border: none;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  border-collapse: collapse;
+}
