@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  display: flex;
+}
+.left {
+  position: fixed;
+  box-sizing: border-box;
+  background: white;
+  border: 1px solid rgb(219, 214, 214);
+  width: 20%;
+  padding-left: 50px;
+  padding-top: 50px;
+  align-items: center;
+}
+.left h2 {
+  padding: 30px 0;
+  text-align: left;
+  width: 180px;
+}
+.left p {
+  padding: 5px 0;
+  text-align: left;
+  font-size: 22px;
+}
+.btn {
+  padding-top: 225px;
+  text-align: center;
+  padding-right: 50px;
+}
+.left button {
+  border: none;
+  font-size: 20px;
+  color: white;
+  background: rgb(80, 80, 179);
+  width: 136px;
+  height: 40px;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  width: 80%;
+}
+.firstline {
+  color: white;
+  width: 100%;
+  background-image: url("image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.firstline img {
+  padding: 100px 0 50px 100px;
+}
+.firstline h1 {
+  font-size: 40px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+.secondline {
+  width: 100%;
+  background: rgb(234, 229, 229);
+}
+.secondline h1 {
+  padding-top: 70px;
+  padding-left: 70px;
+  font-weight: 5;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.secondline p {
+  padding-bottom: 70px;
+  padding-left: 70px;
+  font-size: 20px;
+}
+.thirdline {
+  width: 100%;
+}
+.thirdline h1 {
+  padding-top: 10px;
+  padding-left: 70px;
+  padding-bottom: 10px;
+  color: rgb(139, 135, 135);
+  font-weight: 5;
+}
+.thirdline h2 {
+  padding-left: 70px;
+  padding-bottom: 15px;
+  color: rgb(139, 135, 135);
+  font-weight: 5;
+}
+.thirdline p {
+  padding-bottom: 50px;
+  color: rgb(139, 135, 135);
+}
+.forthline {
+  width: 100%;
+  background: rgb(225, 221, 221);
+}
+.forthline h1 {
+  padding-top: 70px;
+  padding-left: 70px;
+  padding-bottom: 15px;
+  color: rgb(36, 35, 35);
+  font-weight: 5;
+}
+.forthline p {
+  padding-left: 70px;
+  font-size: 20px;
+  padding-bottom: 15px;
+  color: rgb(136, 136, 244);
+}
+.grid-container {
+  padding-left: 70px;
+  padding-right: 250px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+.grid-item {
+  background: rgb(225, 221, 221);
+  font-size: 30px;
+  text-align: center;
+}
+.fiveline {
+  width: 100%;
+  background-color: transparent;
+  background-size: cover;
+  background-image: url("image14.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.inputtag {
+  text-align: center;
+}
+.inputtag1 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.fiveline h1 {
+  font-weight: 400;
+  font-size: 50px;
+  padding-left: 70px;
+  padding-top: 70px;
+  color: rgb(145, 136, 136);
+}
+.fiveline p {
+  font-size: 30px;
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: rgb(132, 122, 122);
+}
+.fiveline button {
+  color: white;
+  background: rgb(134, 134, 235);
+  width: 135px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+}
+.fiveline .btn1 {
+  padding-bottom: 100px;
+  padding-left: 60px;
+}
