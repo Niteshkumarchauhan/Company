@@ -1,0 +1,172 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background: #ffffff;
+}
+.display {
+  display: flex;
+  background: #ffffff;
+  margin: 100px 150px;
+  padding: 80px 60px;
+  justify-content: space-between;
+}
+.total h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  align-items: center;
+  color: #2da77d;
+}
+.right img {
+  align-items: center;
+}
+.estd p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #142958;
+}
+.revenue p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #142958;
+}
+
+.total {
+  width: 100%;
+  justify-content: center;
+  padding: 15px 0px;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+}
+.estd {
+  border-right: 1px solid;
+  padding: 10px;
+  padding-right: 20px;
+}
+.revenue {
+  padding: 10px;
+  padding-left: 20px;
+}
+.left {
+  width: 40%;
+  background: #ffffff;
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+}
+.right {
+  width: 50%;
+}
+.list {
+  padding-left: 20px;
+}
+.hightlight {
+  padding-left: 15px;
+}
+.left h1 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #142958;
+}
+.right h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #142958;
+}
+.right h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #142958;
+}
+.right ul {
+  padding-left: 20px;
+}
+.right p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #767676;
+}
+.right ul li {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #767676;
+}
+.left ul li {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #767676;
+}
+.right ul li::marker {
+  color: #2da77d !important;
+}
+.image {
+  text-align: center;
+}
+.Offerings {
+  display: flex;
+  overflow-x: hidden;
+}
+.paragraph {
+  width: 50%;
+  background: rgba(45, 167, 125, 0.88);
+  padding: 130px 150px;
+}
+.paragraph h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  align-items: center;
+  color: #ffffff;
+}
+.paragraph p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.image2 {
+  width: 50%;
+  display: flex;
+  position: relative;
+}
+.imgContainer {
+  display: flex;
+  position: absolute;
+  top: 110px;
+  left: -150px;
+}
+.image2 .imgContainer div {
+  margin-right: 10px;
+}

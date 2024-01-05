@@ -1,0 +1,347 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background: #ffff;
+}
+.status {
+  background-color: #fff;
+  padding: 100px 150px 75px;
+}
+.vision h1 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  align-items: center;
+  color: #142958;
+}
+.vision p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  align-items: center;
+  color: #767676;
+}
+.contents {
+  display: flex;
+  padding: 0 0 75px 150px;
+  justify-content: space-between;
+}
+.left {
+  width: 40%;
+}
+.calendar {
+  display: flex;
+}
+.calendar select {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #30a67e;
+  border: none;
+  border-right: 2px solid #767676;
+}
+.months {
+  list-style-type: none;
+  display: flex;
+}
+.months li {
+  padding-right: 26px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #767676;
+}
+.days {
+  list-style-type: none;
+  display: flex;
+  position: static;
+}
+.days li {
+  padding-right: 33px;
+  padding-left: 3px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #767676;
+}
+.left h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 48px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #142958;
+}
+.left h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #30a67e;
+}
+.left p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #767676;
+}
+.right {
+  width: 50%;
+  text-align: right;
+  position: relative;
+}
+.right img {
+  border-radius: 10px;
+  justify-content: center;
+}
+.class {
+  border-radius: 10px;
+}
+.building {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trophy {
+  padding: 100px 150px;
+}
+.award {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel-control-prev {
+  padding-right: 27px;
+  border: none;
+  background-color: #fff;
+}
+.carousel-control-next {
+  border: none;
+  background-color: #fff;
+}
+.award h1 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  align-items: center;
+  text-transform: capitalize;
+  color: #142958;
+}
+.images3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.medaltime {
+  margin-left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 324px;
+  padding-left: 20px;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+}
+.medaltime p {
+  margin-left: -44px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  color: #b9b9b9;
+}
+.medaltime h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  color: #142958;
+}
+.medaltime h3 {
+  margin-right: -62px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #142958;
+}
+.readmore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 420px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0 16px;
+  }
+  .status {
+    background-color: #fff;
+    padding: 0;
+  }
+  .vision h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #142958;
+  }
+  .vision p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: #767676;
+  }
+  .contents {
+    display: block;
+    padding: 0;
+  }
+  .heading {
+    padding-right: 23px;
+  }
+  .left {
+    width: 100%;
+  }
+  .left h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #142958;
+  }
+  .left h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #30a67e;
+  }
+  .calendar {
+    display: none;
+  }
+  .right .green {
+    width: 400px;
+    overflow-x: hidden;
+    padding-left: 66px;
+  }
+  .right img {
+    width: 380px;
+  }
+  .trophy {
+    width: auto;
+    padding: 0;
+  }
+  .award {
+    padding-bottom: 29px;
+    width: 100%;
+    padding-right: 23px;
+  }
+  .award h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #142958;
+  }
+  .images3,
+  .images3 #imageDiv,
+  .images3 #imageDiv .cup {
+    width: 100%;
+  }
+  .carousel-control-prev {
+    left: 25%;
+    right: 25.94%;
+    top: 8.33%;
+    bottom: 8.33%;
+  }
+  .carousel-control-next {
+    left: 25%;
+    right: 25.94%;
+    top: 8.33%;
+    bottom: 8.33%;
+  }
+  .medaltime h2 {
+    text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    color: #142958;
+  }
+  .medaltime p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: #b9b9b9;
+  }
+  .medaltime h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: #142958;
+  }
+  .medaltime {
+    padding: 0;
+    width: 100%;
+    margin-left: 0;
+  }
+}
