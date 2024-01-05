@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Use of JQuary to Add Edit and Delete Table Row</h1>
+      </div>
+      <form>
+        <div>
+          <label class="name">Name:</label><br />
+          <input type="text" id="fname" name="fname" />
+        </div>
+        <div>
+          <label class="name">Email:</label><br />
+          <input type="email" id="email" name="email" />
+        </div>
+        <input class="btn" type="button" value="Save" onClick="getTextBoxValue();" id="save" />
+      </form>
+    </div>
+    <div class="table" id="table">
+      <table style="width: 100%">
+        <tr style="height: 35px; text-align: left">
+          <th>Name</th>
+          <th style="width: 60%">Email</th>
+          <th>Action</th>
+        </tr>
+        <tr style="height: 35px">
+          <td id="">Jill</td>
+          <td id="">jill@gmail.com</td>
+          <td class="bott">
+            <button class="edit" type="button">Edit</button>
+            <button class="delete" type="button">Delete</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
