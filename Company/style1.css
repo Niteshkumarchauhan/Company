@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 1050px;
+  margin: auto;
+}
+.logo {
+  text-align: end;
+  background: rgb(35, 35, 79);
+  color: white;
+  padding: 40px;
+}
+.blocks {
+  width: 100%;
+  display: flex;
+}
+.left {
+  width: 50%;
+}
+.vision h3 {
+  padding-right: 55px;
+  box-sizing: border-box;
+  border: 1px solid rgb(2, 2, 36);
+  border-color: rgb(2, 2, 36);
+  background: rgb(20, 20, 60);
+  color: white;
+  text-align: center;
+  width: 45%;
+  height: 40px;
+  padding-top: 4px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.vision p {
+  width: 85%;
+  padding-left: 40px;
+  font-size: 15px;
+  margin: 15px 0;
+}
+.flag h1 {
+  padding-left: 30px;
+  font-size: 60px;
+}
+.flag img {
+  padding-left: 30px;
+}
+.contact {
+  padding-left: 40px;
+}
+.right {
+  padding-top: 95px;
+  width: 50%;
+  text-align: end;
+  padding-right: 40px;
+}
+.our h1 {
+  font-size: 60px;
+}
+.our p {
+  width: 90%;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+.orderlist {
+  justify-items: center;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.paragra {
+  margin: 20px 0;
+  position: relative;
+  padding-left: 160px;
+  display: flex;
+  text-align: end;
+}
+.paragra i {
+  position: absolute;
+  color: rgb(20, 20, 60);
+  padding-left: 330px;
+}
+.para p {
+  width: 90%;
+  padding-left: 50px;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer1 {
+  background: rgb(20, 20, 60);
+  width: 100%;
+  display: flex;
+  color: white;
+}
+.contact {
+  width: 50%;
+  padding: 30px 30px;
+}
+.footer {
+  padding-right: 30px;
+  width: 50%;
+  text-align: end;
+}
+.fa-brands:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1050px;
+    margin: auto;
+}
+.logo1{
+    height: 200px;
+    background-image: url('photo1.png');
+    padding-top: 50px;
+    color: white;
+    padding-left: 30px;
+}
+.mission{
+    padding-left:30px ;
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+}
+.left-mission{
+    width: 50%;
+    border-color: rgb(2, 44, 44);
+}
+.left-styling p{
+    padding: 0;
+    text-align:start;
+    padding-bottom: 20px;
+}
+.right-mission{
+    width: 50%;
+    border-color: rgb(7, 41, 41);
+}
+.verticle{
+        border-left: 4px solid black;
+        height: 60px;
+        position:absolute;
+        left: 45%;
+        margin-top: 19px;;
+}
+.missioncon{
+    display: flex;
+}
+.tamplate p{
+    padding: 0;
+    text-align: left;
+    padding-right: 120px;
+}
+.mission1{
+    position: relative;
+    width: 110%;
+    display: flex;
+    align-items: center;
+}
+.number{
+    position: absolute;
+    height: 70px;
+    box-sizing: border-box;
+    color: rgb(5, 5, 52);
+    border: 1px solid rgb(135, 135, 245);
+    background: rgb(135, 135, 245) ;
+    border-radius: 100%;
+    width: 70px;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.vision{
+    margin-left: 60px;
+    width: 75%;
+    box-sizing: border-box;
+    color: aliceblue;
+    border: 1px solid rgb(5, 5, 52);
+    background:rgb(5, 5, 52) ;
+    margin-bottom: 20px;
+}
+.vision h2, p{
+    margin: 10px 0;
+    margin:0;
+    padding:0 35px;
+    text-align: end;
+}
+.contact{
+    color: white;
+padding-right: 0px;
+text-align: end;
+font-size: 20px;
+margin: 0;
+padding-top: 50px;
+padding-bottom: 20px;
+background-image: url('photo1.png');
+}
